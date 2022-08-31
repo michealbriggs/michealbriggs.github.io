@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+  text-decoration: none;
+  color: #fff;
+  /* font-size: 16px; */
+  } 
+
+:root {
+  --background-image: 
+}
+html {
+  background: url(/images/backgroundimage1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* div {
+  border: solid #333 1px;
+  border-radius: %;
+} */
+
+.header {
+  /* justify-content: flex-end; */
+  align-content: flex-end;
+}
+.navbar{
+  background-color: #333;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+ul, li{
+  margin-left: 1rem;
+  /* margin-top: 1rem; */
+  font-family: 'Dosis', sans-serif;
+}
+ul, li, a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline solid white 1px;
+}
+
+footer{
+  color: #fff;
+  background-color: #333;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+footer, p {
+  font-family: 'Dosis', sans-serif;
+}
+/* section 2 */
+.portfolio  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.portfolio > .sub-heading {
+  margin: 1rem;
+  font-size: 36px;
+  
+}
+.text-illustrations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+/* .section-two > .text-illustrations >  */
+.frog {
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: row wrap; */
+  justify-content: space-between;
+  align-self: center;
+  text-align: center;
+  width: 250px;
+  /* padding: 1rem; */
+}
+
+.tadpole {
+  height: 160px;
+  width: 160px;
+  border: 4px solid #333;
+  border-radius: 90px;
+  justify-content: center;
+  align-self: center;
+}
+.tadpole > img {
+  border-radius: 90px;
+}
+.imageBorder{
+  border-radius: 90px;
+}
+.yellowText{
+  color: yellow;
+}
+.x2 {
+  height: 200px;
+  width: 200px;
+}
